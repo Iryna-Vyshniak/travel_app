@@ -22,7 +22,7 @@ body {
     @apply border-white bg-white px-8 py-3 text-gray-90;
   }
   .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
+    @apply border-green-50 bg-green-50 px-8 py-2 text-white transition-all hover:bg-yellow-50 hover:text-green-50;
   }
   .btn_dark_green {
     @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black;
@@ -36,7 +36,7 @@ body {
   }
 
   .padding-container {
-    @apply px-6 lg:px-20 3xl:px-0;
+    @apply px-6 lg:px-20 3xl:px-2;
   }
 
   .flexCenter {
@@ -84,8 +84,8 @@ body {
     @apply text-[16px] font-[400];
   }
 
-  .regular-14 {
-    @apply text-[14px] font-[400];
+  .regular-12 {
+    @apply text-[12px] font-[400];
   }
 
   .medium-14 {
@@ -120,8 +120,8 @@ body {
     @apply text-[18px] font-[700];
   }
 
-  .bold-16 {
-    @apply text-[16px] font-[700];
+  .bold-12 {
+    @apply text-[12px] font-[700];
   }
 
   /* Hero */
