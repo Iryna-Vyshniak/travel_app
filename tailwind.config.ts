@@ -10,8 +10,8 @@ module.exports = {
     extend: {
       colors: {
         green: {
-          50: '#30AF5B',
-          90: '#292C27',
+          50: '#18472A',
+          90: '#01170D',
         },
         gray: {
           10: '#EEEEEE',
@@ -27,7 +27,7 @@ module.exports = {
           70: '#021639',
         },
         yellow: {
-          50: '#FEC601',
+          50: '#FFDA16',
         },
       },
       backgroundImage: {
