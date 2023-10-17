@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         green: {
           50: '#18472A',
+          70: '#B3BB8C',
           90: '#01170D',
         },
         gray: {
@@ -34,8 +35,13 @@ module.exports = {
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
+        'pattern': "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
+      },
+      content: {
+        ponteD: "url('/ponteD.png')",
+        ponteT: "url('/ponteT.png')",
+        ponteM: "url('/ponteM.png')",
       },
       screens: {
         xs: '400px',
