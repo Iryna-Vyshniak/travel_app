@@ -10,8 +10,10 @@ module.exports = {
     extend: {
       colors: {
         green: {
-          50: '#18472A',
+          50: '#b2ffb2',
+          60: '#006600',
           70: '#B3BB8C',
+          80: '#004c00',
           90: '#01170D',
         },
         gray: {
@@ -44,7 +46,9 @@ module.exports = {
         ponteM: "url('/ponteM.png')",
       },
       screens: {
-        xs: '400px',
+        'mob': '360px',
+        'xs': '480px',
+        '2xl': '1440px',
         '3xl': '1680px',
         '4xl': '2200px',
       },

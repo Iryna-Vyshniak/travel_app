@@ -16,19 +16,19 @@ body {
 
 @layer utilities {
   .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-white bg-white px-8 py-3 text-green-50 hover:text-green-80 shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-90;
+    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-white bg-white px-8 py-3 text-gray-90 hover:text-green-80 shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-2 text-white transition-all hover:bg-green-70 hover:text-green-50;
+    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-green-80 px-8 py-2 text-white hover:bg-green-60 hover:text-green-50 shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_dark_green {
-    @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black;
+    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl bg-green-90 px-8 py-4 text-white hover:bg-black shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_dark_green_outline {
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
+    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-gray-20 bg-green-90 px-8 py-5 text-white shadow-green-90 transition-all ease-in-out duration-200;
   }
 
   .max-container {
