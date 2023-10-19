@@ -8,7 +8,7 @@ const Nav = () => {
         <li key={key}>
           <Link
             href={href}
-            className='regular-12 flexCenter cursor-pointer pb-1.5 transition-all text-white hover:text-yellow-50'
+            className='regular-14 flexCenter cursor-pointer pb-1.5 text-white hover:font-bold hover:text-green-50 hover:drop-shadow-[0_1px_0.5px_rgba(0,0,0,1)] transition-all ease-in-out duration-200'
           >
             {label}
           </Link>

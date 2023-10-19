@@ -8,7 +8,7 @@ const HeroTitle = () => {
       <div className='mt-6 py-6'>
         <p className='text-[26px] md:text-[42px] text-white font-black text-center drop-shadow-[0_1px_0.5px_rgba(0,0,20,1)]'>
           Welcome to
-          <span className='ml-2 bg-clip-text text-transparent bg-gradient-to-r from-green-100 via-green-50 to-green-70 drop-shadow-[0_1px_0.5px_rgba(255,255,255,1)]'>
+          <span className='ml-2 bg-clip-text text-transparent bg-gradient-to-r from-green-100 via-green-80 to-green-70 drop-shadow-[0_1px_0.5px_rgba(255,255,255,1)]'>
             PonteChianale
           </span>
           !
