@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 
-import './globals.css';
+import '../styles/globals.css';
 
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import Footer from '@/components/Footer/Footer';
 
 interface Props {
   children: React.ReactNode;
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: Props) {
         <header className='sticky left-0 right-0 top-0 z-30 shadow-lg shadow-green-90 bg-green-60/30 backdrop-blur-mds'>
           <Navbar />
         </header>
-        <main className='relative overflow-hidden flex flex-1 flex-col max-container padding-container mt-[-6rem]'>
+        <main className='relative overflow-hidden flex flex-1 flex-col mt-[-10rem]'>
           {children}
         </main>
         <Footer />
