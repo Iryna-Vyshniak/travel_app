@@ -1,15 +1,17 @@
-import Navbar from '@/components/Navbar';
-import './globals.css';
 import type { Metadata } from 'next';
-import Footer from '@/components/Footer';
+
+import './globals.css';
+
 import Head from 'next/head';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 interface Props {
   children: React.ReactNode;
 }
 
 export const metadata: Metadata = {
-  title: 'Travel',
+  title: 'PonteChianale',
   description: 'Travel App for Camping',
 };
 
@@ -18,15 +20,15 @@ export default function RootLayout({ children }: Props) {
     <html lang='en'>
       <Head>
         <title>PonteChianale</title>
-        <meta name='description' content='YelpCamp V2' />
+        <meta name='description' content='PonteChianale' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <body>
-        <header className=' shadow-lg shadow-green-100 bg-green-60'>
+        <header className='sticky left-0 right-0 top-0 z-30 shadow-lg shadow-green-90 bg-green-60/30 backdrop-blur-mds'>
           <Navbar />
         </header>
-        <main className='relative overflow-hidden flex flex-1 flex-col max-container padding-container'>
+        <main className='relative overflow-hidden flex flex-1 flex-col max-container padding-container mt-[-6rem]'>
           {children}
         </main>
         <Footer />

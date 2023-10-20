@@ -3,21 +3,22 @@ import HeroTitle from './HeroTitle';
 
 const Hero = () => {
   return (
-    <section className='relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3 z-0 bg-neutral'>
-      <div className='absolute top-0 left-0 w-full h-full overflow-hidden'>
-        <video
-          className={`w-full min-h-full object-cover`}
-          src='https://ik.imagekit.io/lfg3p2t8y/pexels_videos_4097%20(1080p).mp4?updatedAt=1697572866503'
-          autoPlay
-          muted
-          loop
-        ></video>
+    <div className='relative top-0 left-0 w-full min-h-screen flex flex-col items-center justify-center text-center py-0 z-0'>
+      <div className='absolute top-0 left-0 w-full h-full overflow-hidden bg-cover bg-fixed bg-center bg-no-repeat bg-hero'>
+        <div className='absolute bottom-0 left-0 overflow-hidden transform translate-y-0 scale-400 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d z-2 w-full mix-blend-screen mt-[-40vw] inline-block'>
+          <video
+            className={`w-full h-full object-cover border-none`}
+            src='https://ik.imagekit.io/irinavn2011/clouds.mp4?updatedAt=1697803523507'
+            autoPlay
+            muted
+            loop
+          ></video>
+        </div>
       </div>
-
-      <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center space-y-8 max-w-md w-full h-[727px]'>
+      <div className='absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center space-y-8 max-w-md w-full h-auto'>
         <HeroTitle />
       </div>
-    </section>
+    </div>
   );
 };
 

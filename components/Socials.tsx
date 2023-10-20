@@ -11,7 +11,7 @@ const Socials = () => {
             <Link
               href='/'
               key={link}
-              className='flexCenter w-[28px] h-[28px] rounded-full cursor-pointer text-white hover:bg-green-60 hover:text-green-50 shadow-lg shadow-green-90 hover:shadow-md transition-all ease-in-out duration-200'
+              className='flexCenter w-[28px] h-[28px] rounded-full cursor-pointer hover:bg-green-60/30 shadow-lg shadow-green-90 hover:shadow-md transition-all ease-in-out duration-200'
             >
               <Image
                 src={link}

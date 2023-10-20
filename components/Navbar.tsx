@@ -6,7 +6,7 @@ import Button from './Button';
 
 const Navbar = () => {
   return (
-    <nav className='flexBetween gap-2 max-container padding-container sticky left-0 right-0 top-0 z-30 py-2 px-4'>
+    <nav className='flexBetween gap-2 max-container padding-container py-2'>
       <div className='flexCenter flex-row-reverse 2xl:flex-row'>
         <Socials />
         <div className='ml-0 mr-5 2xl:hidden'>
