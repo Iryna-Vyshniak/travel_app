@@ -3,12 +3,16 @@ import Socials from './Socials';
 import Nav from './Nav';
 import Image from 'next/image';
 import Button from './Button';
+import Contacts from './Contacts';
 
 const Navbar = () => {
   return (
     <nav className='flexBetween gap-2 max-container padding-container py-2'>
       <div className='flexCenter flex-row-reverse 2xl:flex-row'>
-        <Socials />
+        <div className='hidden h-full gap-8 xl:flexCenter'>
+          <Socials text='nav' />
+          <Contacts text='nav' />
+        </div>
         <div className='ml-0 mr-5 2xl:hidden'>
           <Logo />
         </div>
