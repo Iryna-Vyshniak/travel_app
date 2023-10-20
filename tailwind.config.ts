@@ -34,11 +34,16 @@ module.exports = {
         },
       },
       backgroundImage: {
+        'hero': "url('https://ik.imagekit.io/irinavn2011/camp.jpg?updatedAt=1697807150648')",
+        'circle': "url('/campHero.jpg')",
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",
         'pattern': "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
+      },
+      backdropBlur: {
+        mds: '18px'
       },
       content: {
         ponteD: "url('/ponteD.png')",
