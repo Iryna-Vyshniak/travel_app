@@ -69,8 +69,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-        { label: 'Admin Officer', value: '+0 800 555 262 33' },
-        { label: 'Email Officer', value: 'info@ponte.com' },
+        { label: 'Admin Officer', value: '+0 800 555 262 33', href: 'tel: +080055526233' },
+        { label: 'Email Officer', value: 'info@ponte.com', href: 'mailto:info@ponte.com' },
     ],
 };
 
