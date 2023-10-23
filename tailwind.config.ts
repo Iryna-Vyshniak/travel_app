@@ -43,6 +43,7 @@ module.exports = {
         'feature-bg': "url('/feature-bg.png')",
         'pattern': "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
+        'forest': "url('/forest.svg')",
       },
       backdropBlur: {
         mds: '18px'
