@@ -83,3 +83,49 @@ export const SOCIALS = {
         '/youtube.svg',
     ],
 };
+
+export const CAMPSITES_DATA = [
+    {
+        id: 'heuhrejf23212',
+        backgroundImage: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Putuk Truno Camp',
+        subtitle: 'Prigen, Pasuruan',
+        peopleJoined: '50+ Joined',
+    },
+    {
+        id: 'heuhrt665f23212',
+        backgroundImage: 'https://images.unsplash.com/photo-1496545672447-f699b503d270?auto=format&fit=crop&q=80&w=1771&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Arches National Park',
+        subtitle: 'Somewhere in the Wilderness',
+        peopleJoined: '80+ Joined',
+    },
+    {
+        id: '3534threjf23212',
+        backgroundImage: 'https://images.unsplash.com/photo-1636659638188-4999d56db1e4?auto=format&fit=crop&q=80&w=1331&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Sunset Campground',
+        subtitle: 'Hume, United States',
+        peopleJoined: '40+ Joined',
+    },
+    {
+        id: '678juuhrejf23212',
+        backgroundImage: 'https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Marzola',
+        subtitle: 'Trento, Italy',
+        peopleJoined: '100+ Joined',
+    },
+    {
+        id: '89k6hrejf23212',
+        backgroundImage: 'https://images.unsplash.com/photo-1503265192943-9d7eea6fc77a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Dharamshala',
+        subtitle: 'Himachal Pradesh, India',
+        peopleJoined: '80+ Joined',
+    },
+    {
+        id: 'he444trgjf23212',
+        backgroundImage: 'https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Sunrise View Camp',
+        subtitle: 'Sedona, Arizona',
+        peopleJoined: '50+ Joined',
+    },
+
+];
