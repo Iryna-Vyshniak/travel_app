@@ -37,6 +37,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('https://ik.imagekit.io/irinavn2011/camp.jpg?updatedAt=1697807150648')",
+        "activity": "url('/activity.png')",
         'circle': "url('/campHero.jpg')",
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",

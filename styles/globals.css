@@ -12,28 +12,31 @@
 
 body {
   font-family: Inter;
+  background: url('/white-texture.png'), lightgray 100% 100% / cover no-repeat;
+  mix-blend-mode: multiply;
+  min-height: 100vh;
 }
 
 @layer utilities {
   .btn_white {
-    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-white px-8 py-2 text-gray-50 hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
+    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-white px-8 py-2 text-gray-50 hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_green {
-    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-green-80 px-8 py-2 text-white hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
+    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-green-80 px-8 py-2 text-white hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_dark_green {
-    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl bg-green-90 px-8 py-4 text-white hover:bg-black shadow-green-90 transition-all ease-in-out duration-200;
+    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl bg-green-90 px-8 py-4 text-white hover:bg-black shadow-green-90 transition-all ease-in-out duration-200;
   }
   .btn_dark_green_outline {
-    @apply w-[150px] h-10 text-sm rounded-tl-2xl rounded-br-2xl border-gray-20 bg-green-90 px-8 py-5 text-white shadow-green-90 transition-all ease-in-out duration-200;
+    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl border-gray-20 bg-green-90 px-8 py-5 text-white shadow-green-90 transition-all ease-in-out duration-200;
   }
 
   .max-container {
-    @apply mx-auto max-w-[1440px];
+    @apply mx-auto my-0 max-w-[1440px] w-full;
   }
 
   .padding-container {
-    @apply px-6 lg:px-20;
+    @apply px-6 lg:px-10;
   }
 
   .flexCenter {
@@ -125,6 +128,10 @@ body {
     @apply text-[12px] font-[700];
   }
 
+  .grd {
+    @apply w-screen bg-gradient-to-r from-yellow-50/30 via-green-50/30 to-green-60;
+  }
+
   /* Hero */
   .hero {
     @apply relative flex flex-col items-center justify-center w-screen h-screen text-center text-white py-0 z-0 bg-neutral;
@@ -155,6 +162,29 @@ body {
 
   .swiper-pagination-bullet {
     @apply bg-green-50;
+  }
+
+  .cards-list {
+    @apply mob:grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 place-content-center gap-y-[16px] gap-x-[29px] mob:gap-y-[16px] 2xl:gap-y-[50px];
+  }
+  .card {
+    @apply relative flex flex-col items-start shrink-0 w-[244px] h-[304px] md:w-[254px] md:h-[406px]  2xl:w-[274px] 2xl:h-[426px];
+  }
+
+  .thumb {
+    @apply h-[238px] w-[371px] md:h-[248px] md:w-[381px] lg:h-[258px] lg:w-[391px] 2xl:h-[268px] 2xl:w-[401px];
+  }
+
+  .card-image {
+    @apply w-full h-full rounded-[14px] shrink-0 object-cover bg-bg-img;
+  }
+
+  .title-card {
+    @apply flex justify-between items-center text-main-text font-medium;
+  }
+
+  .card-info-block {
+    @apply flex w-full;
   }
 }
 
