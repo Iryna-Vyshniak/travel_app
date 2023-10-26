@@ -25,6 +25,7 @@ const Socials = ({ text }: Props) => {
               alt='social link'
               width={16}
               height={16}
+              loading='lazy'
               className='hover:fill-[#021902]'
             />
           </Link>

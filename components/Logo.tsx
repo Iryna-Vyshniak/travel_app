@@ -9,6 +9,7 @@ const Logo = () => {
         alt='travel logo'
         width={100}
         height={100}
+        loading='lazy'
         className='w-[80px] h-[80px] filter drop-shadow-2 offset-x-2 offset-y-2 shadow-green-90'
       />
     </Link>

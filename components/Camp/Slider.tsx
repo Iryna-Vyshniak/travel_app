@@ -10,7 +10,7 @@ import CampSite from './CampSite';
 
 const Slider = () => {
   return (
-    <div className='relative hide-scrollbar flex h-[420px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[520px] xl:h-[640px]'>
+    <div className='relative hide-scrollbar flex h-[420px] w-full flexCenter gap-8 overflow-x-auto lg:h-[520px] xl:h-[640px] rounded-2xl lg:rounded-5xl shadow-lg shadow-orange-950'>
       <Swiper
         slidesPerView={'auto'}
         autoplay={{
@@ -24,14 +24,12 @@ const Slider = () => {
           clickable: true,
         }}
         modules={[Autoplay, Pagination]}
-        className='mySwiper h-[420px] lg:h-[520px] xl:h-[640px] lg:rounded-r-5xl 2xl:rounded-5xl'
+        className='mySwiper w-full h-[420px] lg:h-[520px] xl:h-[640px] rounded-2xl lg:rounded-5xl'
       >
-        {CAMPSITES_DATA.map(({ id, backgroundImage, title, subtitle, peopleJoined }) => (
-          <SwiperSlide
-            key={id}
-            className={`h-full w-full min-w-[1100px] lg:rounded-r-5xl 2xl:rounded-5xl`}
-          >
+        {CAMPSITES_DATA.map(({ id, backgroundImage, title, subtitle, peopleJoined }, idx) => (
+          <SwiperSlide key={id} className={`h-full w-full rounded-2xl lg:rounded-5xl`}>
             <CampSite
+              idx={idx}
               key={id}
               backgroundImage={backgroundImage}
               title={title}

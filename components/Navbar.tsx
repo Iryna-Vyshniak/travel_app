@@ -32,6 +32,7 @@ const Navbar = () => {
         alt='menu'
         width={32}
         height={32}
+        loading='lazy'
         className='inline-block cursor-pointer lg:hidden'
       />
     </nav>

@@ -17,6 +17,7 @@ const PeopleJoined = ({ peopleJoined }: PeopleJoinedProps) => {
             alt='person'
             width={52}
             height={52}
+            loading='lazy'
           />
         ))}
       </span>

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants';
 import FooterColumn from './FooterColumn';
@@ -9,8 +8,9 @@ import Contacts from '../Contacts';
 
 const Footer = () => {
   return (
-    <footer className='flexCenter mb-24'>
-      <div className='padding-container max-container flex w-full flex-col gap-14'>
+    <footer className='flexCenter mt-24'>
+      <div className='padding-container max-container flexCenter w-full flex-col gap-14'>
+        <div className='w-full h-[722px] bg-forest bg-contain bg-no-repeat' />
         <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
           <Logo />
 
