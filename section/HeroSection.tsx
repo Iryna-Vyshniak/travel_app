@@ -1,10 +1,11 @@
 import Hero from '@/components/Hero/Hero';
+import Section from '@/components/Section';
 
 const HeroSection = () => {
   return (
-    <section id='#home' className='relative flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20'>
+    <Section id='#home' variant='w-screen h-screen flex flex-col gap-20 md:gap-28'>
       <Hero />
-    </section>
+    </Section>
   );
 };
 
