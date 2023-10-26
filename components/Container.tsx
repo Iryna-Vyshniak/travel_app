@@ -1,10 +1,17 @@
 type Props = {
+  variant?: string;
   children: React.ReactNode;
 };
 
-const Container = ({ children }: Props) => {
+const Container = ({ variant, children }: Props) => {
   return (
-    <div className='max-container padding-container flex flex-col gap-20 mt-20 py-10 pb-32 md:gap-28 lg:py-20 lg:flex-row'>
+    <div
+      className={
+        !variant
+          ? 'relative max-container padding-container flex flex-col items-center justify-center gap-6 mt-20 py-5'
+          : `${variant}`
+      }
+    >
       {children}
     </div>
   );
