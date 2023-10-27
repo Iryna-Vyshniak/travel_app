@@ -163,7 +163,7 @@ export const BOOKING = [
         "primaryImages": "https://images.unsplash.com/photo-1624778178207-dc5f3914601b?auto=format&fit=crop&q=80&w=1950&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "secondaryImages": "https://images.unsplash.com/photo-1635353015541-b996454cd156?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "id": "camp003",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 8,
         "fullDescription": "Welcome to Mountain View Haven, a picturesque camping destination located at 789 Mountain Drive in the charming town of Peaksburg, Colorado. This campsite offers a haven for those seeking stunning mountain vistas and serene starry nights. Nestled at the base of majestic peaks, Mountain View Haven provides breathtaking views of the surrounding mountains. It's a dream location for stargazers, with clear mountain skies offering a mesmerizing view of the night sky. The campsite features a network of hiking trails, perfect for exploring the diverse flora and fauna of the region. With accommodations for up to two people, Mountain View Haven is the ideal spot for a romantic retreat or a solo adventure. Whether you're gazing at the stars or hiking through the mountains, this campsite promises an unforgettable experience immersed in the natural beauty of Peaksburg, Colorado."
     },
@@ -187,7 +187,7 @@ export const BOOKING = [
         "primaryImages": "https://images.unsplash.com/photo-1484198150509-f7bc98ce38c5?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "secondaryImages": "https://images.unsplash.com/photo-1422557379185-474fa15bf770?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "id": "camp005",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 12,
         "fullDescription": "Experience the allure of the desert at Desert Oasis Camp, located at 234 Sand Dune Road in the captivating Mirage City, Arizona. This extraordinary camping destination offers a gateway to the beauty of the desert, with thrilling dune adventures and mesmerizing starry nights. The campsite allows you to camp under the starry desert sky, immersing yourself in the tranquil surroundings and the soothing sounds of nature. The camp is ideal for adventurous souls who wish to explore the vast sand dunes and enjoy the captivating beauty of the desert landscape. With accommodations for up to three people, Desert Oasis Camp is a cozy and intimate setting for those seeking an unforgettable desert escape. Whether you're stargazing or embarking on desert adventures, this campsite promises an extraordinary experience immersed in the natural beauty of Mirage City, Arizona."
     },
@@ -211,7 +211,7 @@ export const BOOKING = [
         "primaryImages": "https://images.unsplash.com/photo-1534187886935-1e1236e856c3?auto=format&fit=crop&q=80&w=1888&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "secondaryImages": "https://images.unsplash.com/photo-1534880606858-29b0e8a24e8d?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "id": "camp007",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 6,
         "fullDescription": "Escape to the serenity of Coastal Retreat Camp, where you can experience the beauty of the beach at 567 Coastal Drive in Beachside, California. This exceptional camping destination offers an ideal escape for beach lovers, surf enthusiasts, and anyone seeking stunning sunsets. Unwind and relax by the sandy shores, where you can take in the gentle waves, try your hand at surfing, or simply bask in the sun's warm embrace. The campsite provides all the amenities you need for a comfortable stay and is ideal for those who appreciate the coastal environment. With accommodations for up to six people, Coastal Retreat Camp is spacious and inviting, making it the perfect choice for families or friends looking to create lasting memories in the heart of nature."
     },
@@ -247,7 +247,7 @@ export const BOOKING = [
         "primaryImages": "https://images.unsplash.com/photo-1571863533956-01c88e79957e?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "secondaryImages": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "id": "camp010",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 6,
         "fullDescription": "Welcome to Mystic Mountain Basecamp, a haven for adventurers and nature enthusiasts alike. This remarkable camping destination is located at 890 Summit Trail in the enchanting town of Mystique, Colorado. The campsite is situated at the base of a mystic mountain, providing breathtaking views and easy access to the enchanted forests that surround it. The campsite is a hiker's paradise, with an extensive network of well-marked trails that allow you to explore the rich diversity of flora and fauna in the region. The campsite is perfect for those seeking an intimate and immersive outdoor experience. With accommodations for up to four people, Mystic Mountain Basecamp is an excellent choice for friends or families looking to create cherished memories in the heart of nature."
     },
@@ -259,7 +259,7 @@ export const BOOKING = [
         "primaryImages": "https://images.unsplash.com/photo-1471115853179-bb1d604434e0?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "secondaryImages": "https://images.unsplash.com/photo-1557456170-0cf4f4d0d362?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "id": "camp012",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 14,
         "fullDescription": "Journey to Lakeside Serenity Camp and find your slice of paradise. This serene camping destination is located at 222 Lakeside Lane in the picturesque town of Blissville, Michigan. The campsite offers tranquility by the lake, with opportunities for swimming, boating, and pure relaxation. You can take a refreshing swim, paddle in a canoe, or simply bask in the beauty of the lakeshore as you absorb the breathtaking scenery. The campsite provides the perfect setting for a romantic escape, with accommodations for up to two people. It's an ideal choice for couples seeking an intimate getaway immersed in the natural beauty of Blissville, Michigan."
     },
@@ -283,7 +283,7 @@ export const BOOKING = [
         "primaryImages": "https://images.pexels.com/photos/18442272/pexels-photo-18442272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "secondaryImages": "https://images.pexels.com/photos/4014887/pexels-photo-4014887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "id": "camp015",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 14,
         "fullDescription": "Experience the ultimate beachside paradise at Beachside Bliss Retreat, located at 555 Beachfront Avenue in the sunny coastal town of Sunshine Bay, California. This idyllic camping destination offers an ideal escape for beach lovers, sun worshippers, and those seeking the joy of the waves. Unwind and relax on the sandy shores, where you can take in the sun's warmth, frolic in the gentle waves, or simply enjoy the serene beachfront ambiance. The campsite provides all the amenities you need for a comfortable stay, making it a perfect choice for those who appreciate the coastal environment. With accommodations for up to five people, Beachside Bliss Retreat is spacious and inviting, making it the ideal place for families or friends looking to create cherished memories in the heart of nature."
     },
@@ -307,7 +307,7 @@ export const BOOKING = [
         "primaryImages": "https://images.pexels.com/photos/2517748/pexels-photo-2517748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "secondaryImages": "https://images.pexels.com/photos/8968134/pexels-photo-8968134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "id": "camp017",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 14,
         "fullDescription": "Find your own oasis of tranquility at Riverside Oasis Camp, located at 777 Riverfront Road in the peaceful town of Serenity, Washington. This inviting camping destination offers the perfect setting for relaxation, fishing, and enjoying serene sunsets by the river. You can unwind by the river's edge, cast your line, and relish the soothing sounds of flowing water as you await your next catch. The campsite is ideal for families, with accommodations for up to four people. If you're seeking a nature-focused escape, Riverside Oasis Camp is the perfect choice for a family vacation or a group of friends looking to create cherished memories."
     },
@@ -319,7 +319,7 @@ export const BOOKING = [
         "primaryImages": "https://images.pexels.com/photos/14022243/pexels-photo-14022243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "secondaryImages": "https://images.pexels.com/photos/8951972/pexels-photo-8951972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "id": "camp018",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 8,
         "fullDescription": "Experience the serenity of the mountains at Mountain View Lodge, located at 888 Summit Lane in the charming town of Peaksburg, Colorado. This picturesque camping destination offers a cozy lodge with breathtaking mountain views, providing a perfect escape from the daily grind. The lodge is equipped with all the amenities you need for a comfortable stay, allowing you to relax in the warmth of the cozy interior while taking in the majestic mountain scenery. With accommodations for up to four people, Mountain View Lodge is an excellent choice for friends or families seeking a serene and intimate retreat in the heart of nature."
     },
@@ -343,7 +343,7 @@ export const BOOKING = [
         "primaryImages": "https://images.pexels.com/photos/9934803/pexels-photo-9934803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "secondaryImages": "https://images.pexels.com/photos/9021587/pexels-photo-9021587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "id": "camp020",
-        "pet": false,
+        "pet": true,
         "numberOfPersons": 12,
         "fullDescription": "Experience the thrill of adventure at Canyon Adventure Camp, located at 555 Canyon Road in the rugged Redrock Valley, Utah. This exhilarating camping destination offers a gateway to the beauty of rugged canyons and unforgettable sunsets. The campsite allows you to explore the stunning canyons and take in the breathtaking scenery. With accommodations for up to three people, Canyon Adventure Camp is perfect for a small group or individuals seeking an extraordinary experience immersed in the natural beauty of Redrock Valley, Utah."
     }
