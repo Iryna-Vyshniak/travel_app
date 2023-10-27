@@ -8,7 +8,7 @@ const Container = ({ variant, children }: Props) => {
     <div
       className={
         !variant
-          ? 'relative max-container padding-container flex flex-col items-center justify-center gap-6 mt-20 py-5'
+          ? 'relative max-container padding-container flex flex-col items-center justify-center gap-4 py-5'
           : `${variant}`
       }
     >
