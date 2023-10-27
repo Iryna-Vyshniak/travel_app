@@ -165,7 +165,7 @@ body {
   }
 
   .cards-list {
-    @apply mob:grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 place-content-center gap-y-[16px] gap-x-[29px] mob:gap-y-[16px] 2xl:gap-y-[50px];
+    @apply mob:grid md:grid-cols-2  xl:grid-cols-3 place-content-center gap-y-[16px] gap-x-[29px] mob:gap-y-[16px] 2xl:gap-y-[50px];
   }
   .card {
     @apply relative flex flex-col items-start shrink-0 w-[244px] h-[304px] md:w-[254px] md:h-[406px]  2xl:w-[274px] 2xl:h-[426px];
@@ -176,7 +176,7 @@ body {
   }
 
   .card-image {
-    @apply w-full h-full rounded-[14px] shrink-0 object-cover bg-bg-img;
+    @apply w-full h-full rounded-[14px] shrink-0 object-cover;
   }
 
   .title-card {

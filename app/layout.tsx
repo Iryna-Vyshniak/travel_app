@@ -25,7 +25,7 @@ export default function RootLayout({ children }: Props) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <body>
-        <header className='sticky left-0 right-0 top-0 z-30 shadow-lg shadow-green-90 bg-green-60/30 backdrop-blur-mds'>
+        <header className='sticky left-0 right-0 top-0 z-30 shadow-lg shadow-green-90 backdrop-blur-xl bg-green-80/50'>
           <Navbar />
         </header>
         <main className='relative overflow-hidden flex flex-1 flex-col mt-[-10rem]'>
