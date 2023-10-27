@@ -1,6 +1,6 @@
 type Props = {
   text: string;
-  variant: string;
+  variant?: string;
 };
 
 const Title = ({ variant, text }: Props) => {
