@@ -1,10 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'camping', label: 'Camping' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    { href: '/', key: '0home', label: 'Home', icon: '/cabin.svg' },
+    { href: '/camping', key: '1camping', label: 'Camping', icon: '/tent.svg' },
+    { href: '/services', key: '2services', label: 'Services', icon: '/services.svg' },
+    { href: '/contacts', key: '3contact_us', label: 'Contact Us', icon: '/contacts.svg' },
 ];
 
 // CAMP SECTION
@@ -402,3 +401,5 @@ export const ABOUT = [
         "label": "/cabin.svg"
     }
 ]
+
+
