@@ -22,7 +22,7 @@ module.exports = {
           10: '#EEEEEE',
           20: '#A2A2A2',
           30: '#7B7B7B',
-          50: '#585858',
+          50: '#61677c',
           90: '#141414',
         },
         orange: {
@@ -63,6 +63,12 @@ module.exports = {
       },
       maxWidth: {
         '10xl': '1512px',
+      },
+      minHeight: {
+        screenHeightWithoutHeader: 'calc(100vh - 88px)'
+      },
+      height: {
+        screenHeightWithoutHeader: 'calc(100vh - 88px)'
       },
       borderRadius: {
         '5xl': '40px',

@@ -18,7 +18,6 @@ body {
   background-repeat: repeat;
   background-size: contain;
   mix-blend-mode: multiply;
-  min-height: 100vh;
 }
 
 @layer utilities {
@@ -177,7 +176,6 @@ body {
   .thumb {
     @apply w-[316px] h-[204px]  md:w-[354px] md:h-[320px]  2xl:w-[374px] 2xl:h-[326px];
   }
-
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -197,4 +195,19 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 span.swiper-pagination-bullet {
   background-color: #ffffff;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
