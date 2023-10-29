@@ -1,11 +1,10 @@
 import Hero from '@/components/Hero/Hero';
-import Section from '@/components/Section';
 
 const HeroSection = () => {
   return (
-    <Section id='#home' variant='w-screen h-screen flex flex-col gap-20 md:gap-28'>
+    <div className='h-screen flex items-center justify-center text-center overflow-hidden bg-cover bg-center bg-no-repeat bg-hero'>
       <Hero />
-    </Section>
+    </div>
   );
 };
 
