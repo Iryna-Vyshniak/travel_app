@@ -1,3 +1,10 @@
+import PageWrapper from '@/components/PageWrapper';
+import HeroSection from '@/section/HeroSection';
+
 export default function Home() {
-  return <h1>Hello via Next.js</h1>;
+  return (
+    <PageWrapper>
+      <HeroSection />
+    </PageWrapper>
+  );
 }
