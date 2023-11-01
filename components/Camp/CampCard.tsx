@@ -1,3 +1,6 @@
+'use client';
+import { useInView } from 'framer-motion';
+import { useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -17,8 +20,19 @@ const CampCard = ({
 }: {
   data: IData;
 }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
-    <li className='card m-4 rounded-2xl lg:rounded-5xl shadow-lg shadow-slate-400'>
+    <li
+      ref={ref}
+      className='card m-4 rounded-2xl lg:rounded-5xl shadow-lg shadow-slate-400'
+      style={{
+        transform: isInView ? 'none' : 'translateY(200px)',
+        opacity: isInView ? 1 : 0,
+        transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
+      }}
+    >
       <Link href={`/${id}`} className='w-full overflow-hidden'>
         <figure className='relative thumb overflow-hidden mb-4'>
           <Image
