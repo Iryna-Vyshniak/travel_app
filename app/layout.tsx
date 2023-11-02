@@ -1,10 +1,10 @@
+'use client';
 import type { Metadata } from 'next';
 
 import '../styles/globals.css';
 
 import Head from 'next/head';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer/Footer';
+import Header from '@/components/Header/Header';
 
 interface Props {
   children: React.ReactNode;
@@ -25,13 +25,8 @@ export default function RootLayout({ children }: Props) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <body>
-        <header className='sticky left-0 right-0 top-0 z-30 shadow-lg shadow-green-90 backdrop-blur-xl bg-green-80/50'>
-          <Navbar />
-        </header>
-        <main className='relative overflow-hidden flex flex-1 flex-col mt-[-10rem]'>
-          {children}
-        </main>
-        <Footer />
+        <Header />
+        <main className='relative overflow-hidden flex flex-1 flex-col'>{children}</main>
       </body>
     </html>
   );
