@@ -26,7 +26,11 @@ module.exports = {
           90: '#141414',
         },
         orange: {
-          50: '#FF814C',
+          40: '#FBCD93',
+          50: '#EEA76E',
+          60: '#C67D55',
+          80: '#683F34',
+          90: '#2F1711'
         },
         blue: {
           70: '#021639',
@@ -36,6 +40,8 @@ module.exports = {
         },
       },
       backgroundImage: {
+        'textures': "url('/textures.jpg')",
+        'texture': "url('/texture.jpg')",
         'hero': "url('https://ik.imagekit.io/irinavn2011/camp.jpg?updatedAt=1697807150648')",
         "activity": "url('/activity.png')",
         'circle': "url('/campHero.jpg')",
