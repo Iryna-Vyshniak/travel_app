@@ -19,6 +19,7 @@ module.exports = {
           90: '#01170D',
         },
         gray: {
+          5: '#FCFAF1',
           10: '#EEEEEE',
           20: '#A2A2A2',
           30: '#7B7B7B',
@@ -26,10 +27,11 @@ module.exports = {
           90: '#141414',
         },
         orange: {
+          30: '#ffa54f',
           40: '#FBCD93',
-          50: '#EEA76E',
-          60: '#C67D55',
-          80: '#683F34',
+          50: '#a0522d',
+          60: '#cd8500',
+          80: '#8b4513',
           90: '#2F1711'
         },
         blue: {
@@ -40,7 +42,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'textures': "url('/textures.jpg')",
+        'about': "url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260')",
         'texture': "url('/texture.jpg')",
         'hero': "url('https://ik.imagekit.io/irinavn2011/camp.jpg?updatedAt=1697807150648')",
         "activity": "url('/activity.png')",
@@ -54,6 +56,9 @@ module.exports = {
       },
       backdropBlur: {
         mds: '18px'
+      },
+      gradientColorStops: {
+        'custom-gradient': 'linear-gradient(353deg, rgba(255,165,79,1) 11%, rgba(255,169,11,1) 36%, rgba(204,122,29,1) 53%, rgba(160,82,45,1) 65%, rgba(139,69,19,1) 100%)',
       },
       content: {
         ponteD: "url('/ponteD.png')",
