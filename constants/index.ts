@@ -377,28 +377,33 @@ export const ACTIVITY = [
 export const ABOUT = [
     {
         "name": "30 CAMPER SITES",
-        "id": "5454GR",
-        "label": "/bus.svg"
+        "id": "346545454GR",
+        "label": "/bus.svg",
+        "description": "Camper sites are designated areas for individuals traveling in campers or with their own RVs. Each site typically includes electrical hook-ups, water supply, and sewage connections. Amenities may also include access to showers, toilets, and use of recreational facilities like pools or sports courts."
     },
     {
         "name": "25 CARAVAN SITES",
-        "id": "479hfwe",
-        "label": "/caravan.svg"
+        "id": "34653479hfwe",
+        "label": "/caravan.svg",
+        "description": "Caravan sites offer spaces for parking caravans or motorhomes. Similar to camper sites, they usually provide the same utilities such as electric hook-ups, water, and sewage facilities. Access to tourist infrastructure might also be available."
     },
     {
         "name": "50 TENT SITES",
-        "id": "2DS4GR5",
-        "label": "/tent.svg"
+        "id": "25435542DS4GR5",
+        "label": "/tent.svg",
+        "description": "Tent sites are allocated areas for tourists planning to pitch their tents in the open. These sites are often situated in separate zones to maintain privacy and convenience for campers. Depending on the location, communal shower and toilet facilities might be available."
     },
     {
         "name": "10 GLAMP SITES",
-        "id": "DSSFS5G2dd",
-        "label": "/glamp.svg"
+        "id": "43756DSSFS5G2dd",
+        "label": "/glamp.svg",
+        "description": "Glamping sites are luxurious tent sites that typically offer all the necessary amenities resembling hotel rooms. They may be equipped with comfortable furniture, lighting, private bathrooms, and other luxurious add-ons. Glamping provides the opportunity to enjoy nature without compromising on comfort."
     },
     {
         "name": "10 CABIN HOUSES",
-        "id": "DSS54h",
-        "label": "/cabin.svg"
+        "id": "1675686DSS54h",
+        "label": "/cabin.svg",
+        "description": "Cabin houses are individual small houses offering comfortable accommodation. They may include a kitchen, bathroom, bedroom, and a living area. Some cabins might also have a private terrace or a view of the surrounding nature. This is a convenient option for those seeking more seclusion and comfort during their nature retreat."
     }
 ]
 
