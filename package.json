@@ -2,6 +2,11 @@
   "name": "travel_app",
   "version": "0.1.0",
   "private": true,
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
   "scripts": {
     "dev": "next dev --turbo -p 3007",
     "build": "next build",
@@ -10,12 +15,15 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
+    "leaflet": "^1.9.4",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-leaflet": "^4.2.1",
     "swiper": "^10.3.1"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
