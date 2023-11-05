@@ -54,11 +54,11 @@ module.exports = {
         'pattern-2': "url('/pattern-bg.png')",
         'forest': "url('/forest.svg')",
       },
+      backgroundSize: {
+        "size-200": "200% 200%",
+      },
       backdropBlur: {
         mds: '18px'
-      },
-      gradientColorStops: {
-        'custom-gradient': 'linear-gradient(353deg, rgba(255,165,79,1) 11%, rgba(255,169,11,1) 36%, rgba(204,122,29,1) 53%, rgba(160,82,45,1) 65%, rgba(139,69,19,1) 100%)',
       },
       content: {
         ponteD: "url('/ponteD.png')",
