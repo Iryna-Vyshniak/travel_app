@@ -33,15 +33,15 @@ const CampCard = ({
         transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
       }}
     >
-      <Link href={`/${id}`} className='w-full overflow-hidden'>
+      <Link href={`/camping/${id}`} className='w-full overflow-hidden'>
         <figure className='relative thumb overflow-hidden mb-4'>
           <Image
             src={primaryImages}
+            loading='lazy'
             width={316}
             height={304}
             alt='Camp'
             className='absolute inset-0 h-full w-full object-cover rounded-tr-2xl lg:rounded-tr-5xl rounded-tl-2xl lg:rounded-tl-5xl'
-            loading='lazy'
           />
         </figure>
         <div className='flex flex-col gap-2 p-4'>

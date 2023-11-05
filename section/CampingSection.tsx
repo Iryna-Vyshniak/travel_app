@@ -1,15 +1,12 @@
 'use client';
-import { AnimatePresence, motion } from 'framer-motion';
 
 import Button from '@/components/Button';
 import Container from '@/components/Container';
 import Content from '@/components/Content';
 import Title from '@/components/Title/Title';
 import Image from 'next/image';
-import Modal from '@/components/Modal';
-import useModal from '@/shared/hooks/useModal';
+
 import Section from '@/components/Section';
-import { backdropVariant } from '@/shared/utils.ts/motion';
 
 interface IProps {
   modal: boolean;
@@ -26,10 +23,7 @@ const CampingSection = ({ modal, openModal, closeModal, toggleModal }: IProps) =
           <p className='uppercase regular-18 text-green-80 mb-4'>About</p>
           <div className='flex flex-col items-center justify-center gap-20 py-2 md:gap-28 lg:flex-row'>
             <div className='flex flex-1 flex-col xl:w-1/2'>
-              <Title
-                text='Camp Area'
-                variant='bg-clip-text text-transparent bg-gradient-to-r from-green-60 via-green-80 to-green-70 drop-shadow-[0_1px_0.5px_rgba(0,0,20,1)]'
-              />
+              <Title text='Camp Area' variant='drop-shadow-[0_1px_0.5px_rgba(250,250,250,1)]' />
               <Content variant='xl:max-w-[520px]'>
                 We want to be with you on each step of your journey, guiding you towards the immense
                 satisfaction of witnessing the untarnished beauty of nature. With our app, we can
