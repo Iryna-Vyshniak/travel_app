@@ -16,6 +16,8 @@
   "dependencies": {
     "framer-motion": "^10.16.4",
     "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "mapbox-gl": "^2.15.0",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
@@ -23,10 +25,11 @@
     "swiper": "^10.3.1"
   },
   "devDependencies": {
-    "@types/leaflet": "^1.9.7",
+    "@types/leaflet": "^1.9.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-leaflet": "^3.0.0",
     "autoprefixer": "^10",
     "postcss": "^8",
     "tailwindcss": "^3",
