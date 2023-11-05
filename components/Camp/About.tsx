@@ -49,7 +49,7 @@ const About = () => {
               className='flexCenter flex-col gap-2 px-6 pt-10 pb-8 w-60 h-[12.5rem] group relative cursor-pointer overflow-hidden p-2 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:max-w-xs sm:rounded-lg sm:px-10 hover-[14rem]'
               onClick={() => toggleShow(id)}
             >
-              <span className='absolute top-10 z-0 h-20 w-20 rounded-full ring-1 ring-gray-900/5 bg-gray-5 transition-all duration-300 group-hover:scale-[10]'></span>
+              <span className='absolute top-10 z-0 h-20 w-20 rounded-full ring-1 ring-gray-900/5 bg-gray-5 transition-all duration-500 ease-linear group-hover:scale-[10]'></span>
               <div className='relative w-[4.5rem] h-[4.5rem]'>
                 <Image
                   src={label}

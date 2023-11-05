@@ -13,7 +13,7 @@
 body {
   font-family: Inter;
   background-color: rgb(211, 211, 211);
-  background-image: url('/white-texture.png');
+  background-image: url('https://images.unsplash.com/photo-1566041510632-30055e21a9cf?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
@@ -22,10 +22,10 @@ body {
 
 @layer utilities {
   .btn_white {
-    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-white px-8 py-2 text-gray-50 hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
+    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl bg-gradient-to-br to-green-70 via-green-100 from-white bg-size-200 hover:bg-gradient-to-tl cursor-pointer border-slate-300 px-8 py-2 shadow-lg hover:shadow-md shadow-gray-20 transition-all duration-500 ease-linear;
   }
   .btn_green {
-    @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-green-80 px-8 py-2 text-white hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200;
+    @apply w-[150px] h-10 text-white text-base bg-gradient-to-br to-green-60 via-green-90 from-green-80 bg-size-200 hover:bg-gradient-to-tl cursor-pointer rounded-tl-2xl rounded-br-2xl border-green-50 px-8 py-2 shadow-lg hover:shadow-md shadow-green-90 transition-all duration-500 ease-linear;
   }
   .btn_dark_green {
     @apply w-[150px] h-10 text-base rounded-tl-2xl rounded-br-2xl bg-green-90 px-8 py-4 text-white hover:bg-black shadow-green-90 transition-all ease-in-out duration-200;
@@ -192,6 +192,11 @@ html {
   display: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: rgb(0 102 0);
 }
@@ -213,4 +218,16 @@ span.swiper-pagination-bullet {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
 }

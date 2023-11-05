@@ -21,7 +21,9 @@ const PeopleJoined = ({ peopleJoined }: PeopleJoinedProps) => {
           />
         ))}
       </span>
-      <p className='bold-16 md:bold-20 text-white'>{peopleJoined}</p>
+      <p className='bold-16 md:bold-20 text-white drop-shadow-[0_1px_0.5px_rgba(0,0,20,1)]'>
+        {peopleJoined}
+      </p>
     </div>
   );
 };

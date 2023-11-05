@@ -6,15 +6,15 @@ import Content from '../Content';
 
 const Activity = () => {
   return (
-    <div className='w-screen overflow-hidden bg-cover bg-fixed bg-center bg-no-repeat bg-activity'>
+    <div className='w-screen overflow-hidden bg-transparent bg-gradient-to-r from-white/30 via-white to-green-100'>
       <Container>
         <div className='padding-container w-full py-6'>
-          <p className='uppercase regular-18 -mt-1 mb-3 text-white'>Activity</p>
+          <p className='uppercase regular-18 -mt-1 mb-3 text-green-80'>Activity</p>
           <div className='flexCenter flex-col xl:justify-between xl:flex-row gap-x-5'>
             <div className='self-start'>
               <Title
                 text='Camp Will Be For You What You Want It To Be'
-                variant='xl:max-w-[500px] text-white'
+                variant='xl:max-w-[500px]'
               />
               <Image
                 src='/map-world.svg'
@@ -37,14 +37,18 @@ const Activity = () => {
                   <Image src={label} alt='name' width={64} height={64} loading='lazy' />
                   <h3
                     className={`text-base md:text-lg font-bold ${
-                      idx !== 0 && idx !== 3 ? 'text-white' : 'text-green-80'
+                      idx !== 0 && idx !== 3
+                        ? 'text-gray-90 drop-shadow-[0_1px_0.5px_rgba(250,250,250,1)]'
+                        : 'text-green-80'
                     }`}
                   >
                     {name}
                   </h3>
                   <Content
                     variant={`text-base md:text-lg ${
-                      idx !== 0 && idx !== 3 ? 'text-white' : 'text-green-80'
+                      idx !== 0 && idx !== 3
+                        ? 'text-gray-90 drop-shadow-[0_1px_0.5px_rgba(250,250,250,1)]'
+                        : 'text-green-80'
                     }`}
                   >
                     {description}

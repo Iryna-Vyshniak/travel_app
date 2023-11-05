@@ -19,7 +19,7 @@ const Hero = () => {
         <HeroTitle />
         <Link
           href='/discover'
-          className='w-[200px] h-10 text-base rounded-tl-2xl rounded-br-2xl border-green-50 hover:border-green-80 bg-green-80 px-8 py-2 text-white hover:bg-green-60 hover:text-white shadow-lg hover:shadow-md shadow-green-90 transition-all ease-in-out duration-200'
+          className='w-[200px] h-10 text-white text-base bg-gradient-to-br to-green-60 via-green-90 from-green-80 bg-size-200 hover:bg-gradient-to-tl cursor-pointer rounded-tl-2xl rounded-br-2xl border-green-50 px-8 py-2 shadow-lg hover:shadow-md shadow-green-90 transition-all duration-500 ease-linear'
         >
           Discover more
         </Link>

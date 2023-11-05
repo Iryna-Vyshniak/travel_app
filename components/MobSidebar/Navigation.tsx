@@ -13,7 +13,7 @@ const variants = {
 };
 
 export const Navigation = () => (
-  <motion.ul variants={variants} className='absolute top-[100px] w-[300px] p-6'>
+  <motion.ul variants={variants} className='absolute top-[100px] right-0 w-[300px] p-6'>
     {NAV_LINKS.map((i) => (
       <MenuItem i={i} key={i.key} />
     ))}

@@ -15,7 +15,7 @@ const Nav = () => {
         <li key={key}>
           <Link
             href={href}
-            className='relative regular-14 flexCenter cursor-pointer pb-1.5 text-white hover:font-bold hover:text-orange-60 hover:drop-shadow-[0_1px_0.5px_rgba(0,0,0,1)] transition-all ease-in-out duration-200'
+            className='relative regular-14 flexCenter cursor-pointer pb-1.5 text-white hover:font-bold hover:text-green-70 hover:drop-shadow-[0_1px_0.5px_rgba(0,0,0,1)] transition-all ease-in-out duration-200'
           >
             {href === path && (
               <motion.span
