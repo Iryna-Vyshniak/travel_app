@@ -3,7 +3,7 @@ export const NAV_LINKS = [
     { href: '/', key: '0home', label: 'Home', icon: '/cabin.svg' },
     { href: '/camping', key: '1camping', label: 'Camping', icon: '/tent.svg' },
     { href: '/services', key: '2services', label: 'Services', icon: '/services.svg' },
-    { href: '/contacts', key: '3contact_us', label: 'Contact Us', icon: '/contacts.svg' },
+    { href: '/blog', key: '3blog', label: 'Blog', icon: '/contacts.svg' },
 ];
 
 // CAMP SECTION
@@ -487,3 +487,56 @@ export const attribution =
 export const url =
     'https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibGFkeWJvc3N0b3JuIiwiYSI6ImNsb2tsdnYwcjI2bmUycW1lNGY1M3Jyd3MifQ.Qm7B3j1i4d6z4vjaCimaEQ';
 
+
+export const BLOG = [
+    {
+        id: 'post1',
+        title: 'Capturing the Cityscape at Night: A Mesmerizing Experience',
+        author: 'Alice Smith',
+        date: 'December 17, 2023',
+        post: "Discover the magic of cityscapes at night in this captivating journey. The city lights, towering skyscrapers, and bustling streets create a unique atmosphere that is truly mesmerizing. Join us as we explore cities after dark and witness their vibrant energy. As the sun sets and darkness descends, the city transforms into a different world. It's a world of illuminated skyscrapers, neon signs, and the hustle and bustle of the nightlife.In this blog post, we'll take you on a journey through the cityscape at night, and you'll see why it's a mesmerizing experience. The city comes alive in a way that is entirely different from the daytime. The streets are aglow with a sea of lights, and the architecture of the city takes on a whole new dimension. It's a visual spectacle that leaves a lasting impression.We'll explore the beauty of city lights, the towering skyscrapers that touch the sky, and the vibrancy of the nightlife. You'll get a sense of the energy that flows through the city when the moon is high, and the stars twinkle overhead.The cityscape at night is a canvas of colors and shapes.It's a photographer's dream, and if you have a passion for photography, this is the time to capture the city's true essence. Whether you're in a bustling metropolis or a quaint town, the magic of the cityscape at night is universal.The city's landmarks, from iconic bridges to historic buildings, take on a different aura. The reflections in the water, the long-exposure shots of traffic, and the silhouettes of people on the streets all contribute to the enchanting experience. We'll also delve into the sounds of the night, from the chatter of people enjoying their evenings to the distant hum of traffic.It's a symphony of urban life that's unique to the nighttime hours.If you're a traveler seeking a new perspective on familiar places or an adventurer exploring a new city, this blog post will inspire you to go out and experience the cityscape at night. The night holds surprises and discoveries that the daytime can't offer.We'll share tips on how to make the most of your night photography and how to capture the essence of the city in your images. Whether you're a professional photographer or an amateur with a smartphone, you'll find something valuable in this journey through the city's nightscape.So, join us as we step into the night and immerse ourselves in the captivating world of the cityscape at night.It's a mesmerizing experience that will leave you with memories and photographs to cherish for a lifetime.",
+        tags: ['Travel', 'City', 'Night'],
+        photo: 'https://images.unsplash.com/photo-1520114878144-6123749968dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        isFeatured: false,
+    },
+    {
+        id: 'post2',
+        title: 'A Journey Through the Marvelous Beaches of Maldives and a marvelous experience',
+        author: 'John Doe',
+        date: 'December 18, 2023',
+        post: "The Maldives  is one of the most popular honeymoon destinations in the world Maldives honeymoon. A Google search of this chain of islands will quickly reveal why. The Maldives is a tropical paradise with pristine, white-sand beaches, crystal waters, active coral reefs and lush forests of palm trees. With hundreds of beautiful resorts lining these islands, however, it can be difficult to know where to begin. Many budget travelers also find the average costs in the Maldives as a slight turn-off. Here is a rundown of the best Maldives tips to help travelers make the right decision in regards to this beautiful paradise. Some vacation destinations have everything a traveler could need. The number of options is typically the allure for these places. The Maldives should be seen as a destination that focuses on a specific niche rather than offering a little bit of everything. There are no major cities on this chain of islands. The Maldives is also lacking in nightlife, shopping centers, and local interactions. The average cost is another difficult pill to swallow. Although there are some cheaper resorts in the Maldives, these can detract from your vacation more than they’ll add. It is a better idea to splurge on a nicer resort and stay for a shorter period of time in the Maldives.",
+        tags: ['Travel', 'Beaches'],
+        photo: 'https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        isFeatured: true,
+    },
+    {
+        id: 'post3',
+        title: 'Embracing Adventure: Exploring the Great Outdoors',
+        author: 'Jane Wilson',
+        date: 'December 11, 2023',
+        post: "In the hustle and bustle of modern life, the great outdoors offer a haven of tranquility and adventure, providing us with a much-needed escape from the demands of daily routines. Whether you are an intrepid explorer, an avid nature enthusiast, or simply seeking solace away from the screen, stepping outside and immersing yourself in nature can be a transformative experience. In this blog post, we delve into the wonders of the great outdoors and explore the many benefits of spending time in nature.   The great outdoors have an undeniable power to reconnect us with our natural roots. As we wander through lush forests, gaze upon majestic mountains, or bask in the beauty of a serene lake, we can't help but feel a profound sense of belonging to something greater than ourselves. Nature has a unique ability to awaken our senses, allowing us to see, hear, and feel the world in its raw and unfiltered form. By disconnecting from our digital devices and embracing the tangible beauty of the outdoors, we can reclaim a part of ourselves often forgotten amidst the chaos of modern life. Beyond the spiritual and emotional benefits, spending time outdoors also has a significant impact on our physical health and overall well-being. Studies have shown that outdoor activities can reduce stress, anxiety, and depression. The fresh air and vitamin D from sunlight contribute to improved mood and increased levels of serotonin, helping to combat mood disorders and promote mental clarity. Engaging in outdoor activities also encourages physical exercise, whether it's hiking, biking, swimming, or simply taking a leisurely stroll. Regular physical activity in nature can boost cardiovascular health, enhance immune function, and aid in weight management. Furthermore, spending time outdoors exposes us to beneficial microbes that support a diverse gut microbiome, which is essential for overall digestive health. Collaborative efforts to protect and conserve the environment are instrumental in ensuring that future generations can continue to enjoy the splendor of nature. In a world where technology dominates our daily lives, escaping to the great outdoors can be a breath of fresh air – both literally and metaphorically.The benefits of spending time in nature are plentiful, from reconnecting with our inner selves to promoting physical and mental well- being.  So, let's set aside our screens and venture into the embrace of nature, where adventure, serenity, and discovery await. Whether it's a short hike, a camping trip, or a leisurely picnic at the park, each experience in the outdoors is an opportunity to reconnect with nature and, in turn, reconnect with ourselves.Embrace the great outdoors, and you may find a renewed sense of wonder and appreciation for the world around you.Happy exploring!",
+        tags: ['Travel', 'Adventure', 'Nature', 'Landmarks'],
+        photo: 'https://images.unsplash.com/photo-1590053404184-ce4ee04f3d58?q=80&w=2308&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        isFeatured: true,
+    },
+    {
+        id: 'post4',
+        title: 'Chasing Sunsets: The Beauty of Evening by the Beach',
+        author: 'Robert Johnson',
+        date: 'December 16, 2023',
+        post: "Well, they don’t. It’s just like chocolate – the more you engage with it, the more you want it again and again. And like salt water, sand between the toes, and the symphony of the waves, we can never say no to a beautiful sunset at the beach.  We looked through our old photo albums and decided to bring the best beach sunsets snapshots back to life.Before we show you what we found, let’s start off with a little video of a mesmerizing beach sunset.",
+        tags: ['Travel', 'Beaches', 'Sunset'],
+        photo: 'https://images.unsplash.com/photo-1536585806558-81c7ea4d393d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        isFeatured: true,
+    },
+    {
+        id: 'post5',
+        title: 'Mountain Adventures: Scaling New Heights',
+        author: 'Michael Clark',
+        date: 'December 18, 2023',
+        post: "Mountain climbing is not just a physical challenge, but also a mental and emotional journey that pushes you to your limits. The benefits of mountain climbing go beyond the physical exertion and adrenaline rush. It teaches you resilience, patience, and the importance of teamwork. The feeling of accomplishment when you reach the summit is unparalleled, and it instills a sense of confidence and self-belief that transcends into other areas of your life. In addition, mountain climbing offers a unique opportunity to connect with nature and disconnect from the chaos of everyday life. The pristine beauty of the mountains, the serenity of the surroundings, and the sense of being one with the elements create a profound sense of peace and tranquility. So, if you’re ready to challenge yourself, experience personal growth, and witness the grandeur of nature, mountain climbing is the perfect adventure for you.  Europe is a haven for mountain climbers, offering a wide range of destinations catering to all skill levels. One of the most popular destinations is the Mont Blanc Massif, located in the French Alps. With its iconic peak standing at 4,810 meters, Mont Blanc attracts climbers from around the world. The challenging ascent, breathtaking views, and the sense of accomplishment make it a must-do for any serious mountaineer. Another notable destination is the Matterhorn, located on the border between Switzerland and Italy. Its distinctive pyramid shape and technical climbing routes have earned it the reputation of being one of the toughest mountains to conquer. For those seeking a less challenging climb, the Scottish Highlands offer a plethora of options. The rugged landscapes, picturesque lochs, and the mystical charm of the region make it a favourite among climbers. <br> Mountain climbing is not just a physical challenge; it’s an incredible journey that tests your limits, connects you with nature, and leaves you with unforgettable memories. From the towering peaks of the Himalayas to the rugged landscapes of Patagonia, our world is blessed with some truly remarkable mountain climbing destinations. Whether you’re a seasoned mountaineer or a beginner looking to embark on your first adventure, these destinations offer a range of challenges and experiences. So, tighten your harness, lace up your boots, and get ready to scale new heights. The mountains are calling, and it’s time to answer their call.",
+        tags: ['Travel', 'Adventure', 'Mountain', 'Landmarks'],
+        photo: 'https://images.unsplash.com/photo-1627466147562-032061a67e8b?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        isFeatured: true,
+    },
+]
