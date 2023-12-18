@@ -16,7 +16,7 @@ interface IData {
 }
 
 const CampCard = ({
-  data: { name, address, price, description, primaryImages, id, pet, numberOfPersons },
+  data: { name, address, price, description = '', primaryImages, id, pet, numberOfPersons },
 }: {
   data: IData;
 }) => {
@@ -45,11 +45,14 @@ const CampCard = ({
           />
         </figure>
         <div className='flex flex-col gap-2 p-4'>
-          <span className='inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs text-center max-w-[7.5rem]'>
-            Highlight
-          </span>
-          <h3 className='title-image text-green-800 font-bold'>{name}</h3>
-          <p className='text-base'>{address}</p>
+          <div className='flex flex-col flex-grow gap-2'>
+            <span className='inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs text-center max-w-[7.5rem]'>
+              Highlight
+            </span>
+            <h3 className='title-image text-green-800 font-bold'>{name}</h3>
+            <p className='text-base'>{address}</p>
+          </div>
+
           <div className='flex items-center justify-between border-t w-full pt-2'>
             <p className='text-base'>${price}/per day</p>
             <div className='flex items-center gap-1'>
