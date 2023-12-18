@@ -4,7 +4,7 @@ import PageWrapper from '@/components/PageWrapper';
 import Title from '@/components/Title/Title';
 import { BOOKING } from '@/constants';
 
-const Home = () => {
+const Camping = () => {
   return (
     <PageWrapper>
       <Container>
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Camping;

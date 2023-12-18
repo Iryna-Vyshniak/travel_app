@@ -2,7 +2,7 @@ import Container from '@/components/Container';
 import PageWrapper from '@/components/PageWrapper';
 import Section from '@/components/Section';
 
-const Home = () => {
+const Services = () => {
   return (
     <PageWrapper>
       <Container>Services</Container>
@@ -10,4 +10,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Services;

@@ -11,7 +11,7 @@ import GallerySection from '@/section/GallerySection';
 import GuideSection from '@/section/GuideSection';
 import useModal from '@/shared/hooks/useModal';
 
-const Home = () => {
+const Discover = () => {
   const [modal, openModal, closeModal, toggleModal] = useModal(false);
   return (
     <PageWrapper>
@@ -36,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Discover;
