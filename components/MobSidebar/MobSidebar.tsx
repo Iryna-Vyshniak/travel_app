@@ -1,6 +1,6 @@
 'use client';
 import { useRef } from 'react';
-import { motion, sync, useCycle } from 'framer-motion';
+import { motion, useCycle } from 'framer-motion';
 import { useDimensions } from '@/shared/hooks/useDimensions';
 import { MenuToggle } from './MenuToggle';
 import { Navigation } from './Navigation';

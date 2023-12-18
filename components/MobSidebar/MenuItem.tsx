@@ -28,8 +28,8 @@ const variants = {
   },
 };
 
-export const MenuItem = ({ i }: { i: IProp }) => {
-  const style = { border: `2px solid ${COLORS[parseInt(i.key)]}` };
+export const MenuItem = ({ i: { key, href, icon, label } }: { i: IProp }) => {
+  const style = { border: `2px solid ${COLORS[parseInt(key)]}` };
   return (
     <motion.li
       variants={variants}
@@ -37,19 +37,11 @@ export const MenuItem = ({ i }: { i: IProp }) => {
       whileTap={{ scale: 0.95 }}
       className='cursor-pointer list-none flexCenter mb-5'
     >
-      <Link
-        href={i.href}
-        className='relative regular-14 flexCenter cursor-pointer pb-1.5 text-white'
-      >
+      <Link href={href} className='relative regular-14 flexCenter cursor-pointer pb-1.5 text-white'>
         <div className='w-[40px] h-[40px] rounded-full mr-5 flexCenter' style={style}>
-          <Image src={i.icon} alt='icon `${i.href}`' width={22} height={22} loading='lazy' />
+          <Image src={icon} alt='icon `${i.href}`' width={22} height={22} loading='lazy' />
         </div>
-        <div
-          className='flexCenter w-[200px] h-[40px] p-4 rounded-md text-green-90 text-base'
-          style={style}
-        >
-          {i.label}
-        </div>
+        <div className='flexCenter w-[200px] h-[40px] p-4 text-green-90 text-base'>{label}</div>
       </Link>
     </motion.li>
   );
