@@ -53,6 +53,7 @@ module.exports = {
         'pattern': "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
         'forest': "url('/forest.svg')",
+        'blog': "url('/tents-overlooking-mountain.png')",
       },
       backgroundSize: {
         "size-200": "200% 200%",
