@@ -3,19 +3,19 @@ export const COLORS = ['#ecfccb', '#d9f99d', '#bef264', '#a3e635', '#84cc16'];
 type CategoryColors = Map<string, [string, string]>;
 
 const categoryColors: CategoryColors = new Map([
-    ['Travel', ['bg-pink-200', 'bg-pink-500/80']],
-    ['Nature', ['bg-green-200', 'bg-green-500/80']],
-    ['Mountain', ['bg-yellow-200', 'bg-yellow-500/80']],
-    ['Adventure', ['bg-blue-200', 'bg-blue-500/80']],
-    ['Beaches', ['bg-purple-200', 'bg-purple-500/80']],
-    ['Landmarks', ['bg-red-200', 'bg-red-500/80']],
-    ['Sunset', ['bg-orange-200', 'bg-orange-500/80']],
-    ['City', ['bg-indigo-200', 'bg-indigo-500/80']],
+    ['Travel', ['bg-pink-100', 'bg-pink-300/80']],
+    ['Nature', ['bg-green-100', 'bg-green-300/80']],
+    ['Mountain', ['bg-yellow-100', 'bg-yellow-300/80']],
+    ['Adventure', ['bg-blue-100', 'bg-blue-300/80']],
+    ['Beaches', ['bg-purple-100', 'bg-purple-300/80']],
+    ['Landmarks', ['bg-red-100', 'bg-red-300/80']],
+    ['Sunset', ['bg-orange-100', 'bg-orange-300/80']],
+    ['City', ['bg-indigo-100', 'bg-indigo-300/80']],
 ]);
 
 export const categories: string[] = Array.from(categoryColors.keys());
 
 export function getCategoryColors(category: string): [string, string] {
     const colorTuple: [string, string] | undefined = categoryColors.get(category);
-    return colorTuple ?? ['bg-cyan-200', 'bg-cyan-500/80'];
+    return colorTuple ?? ['bg-cyan-100', 'bg-cyan-500/50'];
 }
