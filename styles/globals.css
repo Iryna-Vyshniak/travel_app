@@ -4,10 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -18,6 +24,59 @@ body {
   background-repeat: repeat;
   background-size: contain;
   mix-blend-mode: multiply;
+}
+
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* chrome */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* firefox */
+html {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 @layer utilities {
@@ -170,31 +229,12 @@ body {
     @apply mob:grid md:grid-cols-2  xl:grid-cols-3 place-content-center gap-y-[16px] gap-x-[29px] mob:gap-y-[16px] 2xl:gap-y-[50px];
   }
   .card {
-    @apply flex flex-col items-start shrink-0 w-[316px] h-[404px] md:w-[354px] md:h-[506px] 2xl:w-[374px] 2xl:h-[526px];
+    @apply flex flex-col items-start shrink-0 w-[316px] h-[420px] md:w-[354px] md:h-[506px] 2xl:w-[374px] 2xl:h-[526px];
   }
 
   .thumb {
     @apply w-[316px] h-[204px]  md:w-[354px] md:h-[320px]  2xl:w-[374px] 2xl:h-[326px];
   }
-}
-
-/* chrome */
-html::-webkit-scrollbar {
-  display: none;
-}
-
-/* firefox */
-html {
-  scrollbar-width: none;
-}
-
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
