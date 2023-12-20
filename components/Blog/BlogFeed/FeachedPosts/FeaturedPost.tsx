@@ -1,32 +1,24 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Link from 'next/link';
-import Post from '@/shared/types';
+import { motion } from 'framer-motion';
+import Post, { IFeaturedPostProps } from '@/shared/types';
 import TagsList from '../../Tags/TagsList';
-import { useInView } from 'framer-motion';
 
-const FeaturedPost = ({
+const FeaturedPost: React.FC<IFeaturedPostProps> = ({
   post: { id: postId, title, author, date, post: description, tags, photo },
-}: {
-  post: Post;
+  styles,
 }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
   return (
-    <li
-      ref={ref}
-      className='h-auto xs:h-58 border-b border-slate-400 xs:border-none cursor-pointer gap-4 rounded-lg shadow-lg shadow-slate-400 xs:shadow-transparent'
-      style={{
-        transform: isInView ? 'none' : 'translateY(200px)',
-        opacity: isInView ? 1 : 0,
-        transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
-      }}
+    <motion.li
+      style={styles}
+      className='w-full h-full xs:h-60 border-b border-slate-400 xs:border-none gap-4 rounded-lg shadow-lg shadow-slate-400'
     >
-      <Link href={`/blog/${postId}`} className='flex flex-col xs:flex-row'>
-        <div className='w-full xs:w-1/3'>
+      <Link href={`/blog/${postId}`} className='flex flex-col xs:flex-row w-full h-full xs:h-60'>
+        <div className='h-full w-full xs:w-1/3 object-cover'>
           <img
             src={photo}
             alt={title}
-            className='h-full w-full rounded-lg object-cover shadow-lg'
+            className='h-full w-full rounded-t-lg xs:rounded-t-none xs:rounded-l-lg object-cover shadow-lg'
           />
         </div>
         <div className='flex h-full w-full xs:w-2/3 flex-col gap-2 px-2 py-4'>
@@ -40,7 +32,7 @@ const FeaturedPost = ({
           </div>
         </div>
       </Link>
-    </li>
+    </motion.li>
   );
 };
 
