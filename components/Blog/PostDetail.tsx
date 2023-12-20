@@ -6,6 +6,7 @@ import Post from '@/shared/types';
 import Tag from './Tags/Tag';
 import Button from '../Button';
 import navigateBackWhiteIcon from '@/public/navigate-back-white.svg';
+import BackLink from '../BackLink/BackLink';
 
 interface IProps {
   params: {
@@ -31,21 +32,14 @@ const PostDetail = ({ params: { postId } }: IProps) => {
     <>
       {post && (
         <div className='min-h-screen'>
-          <div className='relative flex flex-col'>
+          <div className='relative flex flex-col h-[520px] 2xl:h-[620px] w-full -mt-10 shadow-inner shadow-slate-800'>
             <img
               src={post.photo}
               alt={post.title}
-              className='h-80 w-full object-cover md:h-96 lg:h-[520px] 2xl:h-[620px]'
+              className='w-full object-cover h-[520px] 2xl:h-[620px]'
             />
-            <div className='absolute left-0 top-0 h-full w-full bg-slate-900/60'></div>
-            <div className='absolute top-12 w-full cursor-pointer justify-start px-2 text-lg text-slate-50 md:top-20 md:px-8 md:text-xl lg:px-12 lg:text-2xl'>
-              <Button
-                onClick={() => push('/blog')}
-                icon={navigateBackWhiteIcon}
-                iconTitle='back'
-                type='button'
-              />
-            </div>
+            <div className='absolute left-0 top-0 h-full w-full bg-slate-900/60 shadow-inner shadow-slate-800'></div>
+            <BackLink href='/blog' styles='absolute' />
             <div className='absolute bottom-6 w-full max-w-xl px-4 text-slate-50 md:bottom-8 md:max-w-3xl md:px-8 lg:bottom-12 lg:max-w-5xl lg:px-12'>
               <ul className='mb-4 flex space-x-2 text-slate-600'>
                 {post.tags.map((tag: string, idx) => (

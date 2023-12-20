@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { BOOKING } from '@/constants';
 import Spinner from '../Spinner';
+import BackLink from '../BackLink/BackLink';
 const DynamicMap = dynamic(async () => await import('@/components/Map/CampMap'), {
   loading: () => <Spinner />,
   ssr: false,
@@ -65,11 +66,7 @@ const FullCampCard = ({ params }: IProps) => {
               backgroundSize: 'cover',
             }}
           ></div>
-          <div className='fixed top-[15%] left-[4%] z-20 bg-white cursor-pointer border-2 border-gray-400 rounded-full w-12 h-12 flex justify-center items-center'>
-            <Link href='/camping' className='text-lg text-slate-500'>
-              <Image src='/back.svg' width={26} height={26} alt='copy' loading='lazy' />
-            </Link>
-          </div>
+          <BackLink href='/camping' styles='fixed' />
           <div
             className='fixed top-[15%] right-[6%] z-20 bg-white cursor-pointer border-2 border-gray-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md shadow-gray-600'
             onClick={() => {
