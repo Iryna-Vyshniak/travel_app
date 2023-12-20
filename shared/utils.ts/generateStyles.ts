@@ -1,4 +1,4 @@
-export const generateStyles = (height: number, index: number, postsLength: number) => {
+export const generateStyles = (index: number, postsLength: number) => {
     return {
         width: '100%',
         borderRadius: 20,
