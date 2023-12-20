@@ -46,7 +46,7 @@ const BlogFeed = () => {
             {latestPosts && <LatestPosts latestPosts={latestPosts} />}
           </div>
         </div>
-        <div className='w-full p-4 md:w-2/3'>
+        <div className='relative w-full p-4 md:w-2/3'>
           <p className='mb-1 tracking-wide text-slate-500'>What's hot?</p>
           <h1 className='mb-2 text-2xl font-semibold'>
             {selectedCategory === 'featured'

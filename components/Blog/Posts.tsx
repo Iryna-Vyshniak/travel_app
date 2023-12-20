@@ -5,7 +5,7 @@ import BlogFeed from './BlogFeed/BlogFeed';
 const Posts = () => {
   return (
     <div className='w-full cursor-default'>
-      <div className='bg-blog relative h-[460px] bg-cover bg-center'>
+      <div className='bg-blog relative h-[460px] w-full -mt-10 bg-cover bg-center'>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <div className='absolute inset-0 flex flex-col px-8 py-8 text-slate-50 md:px-16'>
           <div className='flex w-full justify-between'>
