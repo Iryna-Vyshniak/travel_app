@@ -12,10 +12,13 @@ const variants = {
   },
 };
 
-export const Navigation = () => (
-  <motion.ul variants={variants} className='absolute top-[100px] right-0 w-[300px] p-6'>
+export const Navigation = ({ onClick }: { onClick: () => void }) => (
+  <motion.ul
+    variants={variants}
+    className='absolute top-[100px] right-0 flexCenter flex-col w-full p-4'
+  >
     {NAV_LINKS.map((i) => (
-      <MenuItem i={i} key={i.key} />
+      <MenuItem i={i} key={i.key} onClick={onClick} />
     ))}
   </motion.ul>
 );

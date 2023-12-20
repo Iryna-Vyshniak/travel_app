@@ -20,11 +20,11 @@ const MobSidebar = () => {
       className='absolute top-0 right-0 bottom-0 z-50 w-[50vw] lg:hidden'
     >
       <motion.div
-        className='absolute top-0 right-0 bottom-0 w-screen md:w-[50vw] min-h-screen bg-white shadow-lg shadow-slate-800'
+        className='absolute top-0 right-0 bottom-0 w-[70vw] md:w-[50vw] min-h-screen bg-white shadow-lg shadow-slate-800'
         variants={sidebar}
       />
-      <Navigation />
-      <MenuToggle toggle={() => toggleOpen()} />
+      <Navigation onClick={() => toggleOpen()} />
+      <MenuToggle toggle={() => toggleOpen()} isOpen={isOpen} />
     </motion.nav>
   );
 };
