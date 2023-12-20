@@ -29,6 +29,16 @@ export interface IPost {
     isFeatured: boolean;
 };
 
+export interface IFeaturedPostProps {
+    post: IPost;
+    styles: {
+        width: string;
+        borderRadius: number;
+        backgroundColor: string;
+        marginBottom: number;
+    };
+}
+
 export interface ICategories {
     categories: string[];
     selectedCategory: string;
