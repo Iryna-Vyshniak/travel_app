@@ -2,9 +2,9 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
 
-import Container from '@/components/Container';
-import PageWrapper from '@/components/PageWrapper';
-import Spinner from '@/components/Spinner';
+import Container from '@/layout/Container';
+import PageWrapper from '@/layout/PageWrapper';
+import Spinner from '@/components/Spinner/Spinner';
 
 const DynamicPostDetail = dynamic(() => import('@/components/Blog/PostDetail'), {
   loading: () => <Spinner />,

@@ -1,6 +1,6 @@
-import Guide from '@/components/Guide/Guide';
-import Section from '@/components/Section';
 import React from 'react';
+import Guide from '@/components/Guide/Guide';
+import Section from '@/layout/Section';
 
 const GuideSection = () => {
   return (

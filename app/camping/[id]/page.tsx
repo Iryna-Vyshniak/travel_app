@@ -2,11 +2,11 @@
 import dynamic from 'next/dynamic';
 import 'leaflet/dist/leaflet.css';
 
-import Container from '@/components/Container';
-import PageWrapper from '@/components/PageWrapper';
-import Spinner from '@/components/Spinner';
+import Container from '@/layout/Container';
+import PageWrapper from '@/layout/PageWrapper';
+import Spinner from '@/components/Spinner/Spinner';
 
-const DynamicCampCard = dynamic(() => import('@/components/Camp/FullCampCard'), {
+const DynamicCampCard = dynamic(() => import('@/components/Camp/CampCardDetail'), {
   loading: () => <Spinner />,
   ssr: false,
 });

@@ -1,5 +1,5 @@
 import Booking from '@/components/Camp/Booking';
-import Section from '@/components/Section';
+import Section from '@/layout/Section';
 
 const BookingSection = () => {
   return (

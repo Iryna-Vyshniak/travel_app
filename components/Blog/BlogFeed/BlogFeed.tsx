@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { categories } from '@/constants/colors';
 import formatTime from '@/shared/utils.ts/formatTime';
-import { BLOG } from '@/constants';
+import { BLOG } from '@/mock/mock';
 import { IPost } from '@/shared/types';
 import Categories from './Categories';
 import FeachedPosts from './FeachedPosts/FeachedPosts';

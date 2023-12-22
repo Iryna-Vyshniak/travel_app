@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import PeopleJoined from './PeopleJoined';
-import Content from '../Content';
+import Content from '../../ui/Content/Content';
 
 interface ICampProps {
   idx: number;

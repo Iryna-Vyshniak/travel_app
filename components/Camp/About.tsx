@@ -1,9 +1,10 @@
 'use client';
 import Image from 'next/image';
-import { ABOUT } from '@/constants';
-import Container from '../Container';
+
+import Container from '../../layout/Container';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
+import { ABOUT } from '@/data/data';
 
 export const popup = {
   initial: {

@@ -1,4 +1,4 @@
-import { FOOTER_CONTACT_INFO } from '@/constants';
+import { FOOTER_CONTACT_INFO } from '@/data/data';
 import Link from 'next/link';
 
 type Props = {

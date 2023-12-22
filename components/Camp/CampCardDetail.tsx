@@ -1,11 +1,11 @@
 'use client';
 import dynamic from 'next/dynamic';
-import Image from 'next/image';
-import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { BOOKING } from '@/constants';
-import Spinner from '../Spinner';
-import BackLink from '../BackLink/BackLink';
+import Image from 'next/image';
+import { BOOKING } from '@/mock/mock';
+import Spinner from '../Spinner/Spinner';
+import BackLink from '../../ui/BackLink/BackLink';
+
 const DynamicMap = dynamic(async () => await import('@/components/Map/CampMap'), {
   loading: () => <Spinner />,
   ssr: false,
@@ -32,7 +32,7 @@ type IData = {
   position: [number, number];
 };
 
-const FullCampCard = ({ params }: IProps) => {
+const CampCardDetail = ({ params }: IProps) => {
   const [shareLinkCopied, setShareLinkCopied] = useState(false);
   const [campData, setCampData] = useState<IData | null>(null);
 
@@ -142,4 +142,4 @@ const FullCampCard = ({ params }: IProps) => {
   );
 };
 
-export default FullCampCard;
+export default CampCardDetail;

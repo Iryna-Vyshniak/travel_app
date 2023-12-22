@@ -1,5 +1,5 @@
 import Activity from '@/components/Camp/Activity';
-import Section from '@/components/Section';
+import Section from '@/layout/Section';
 
 const ActivitySection = () => {
   return (

@@ -14,7 +14,7 @@ const FeaturedPost: React.FC<IFeaturedPostProps> = ({
       className='w-full h-full xs:h-60 border-b border-slate-400 xs:border-none gap-4 rounded-lg shadow-lg shadow-slate-400'
     >
       <Link href={`/blog/${postId}`} className='flex flex-col xs:flex-row w-full h-full xs:h-60'>
-        <div className='h-full w-full xs:w-1/3 object-cover'>
+        <div className='h-full w-full xs:w-1/3 rounded-t-lg xs:rounded-t-none xs:rounded-l-lg object-cover'>
           <img
             src={photo}
             alt={title}

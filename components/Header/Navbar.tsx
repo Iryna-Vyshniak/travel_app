@@ -1,8 +1,8 @@
 import Logo from './Logo';
-import Socials from '../Socials';
+import Socials from '../Socials/Socials';
 import Nav from './Nav';
-import Button from '../Button';
-import Contacts from '../Contacts';
+import Button from '../../ui/Button/Button';
+import Contacts from '../Contacts/Contacts';
 import MobSidebar from '../MobSidebar/MobSidebar';
 
 const Navbar = () => {

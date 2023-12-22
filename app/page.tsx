@@ -1,4 +1,4 @@
-import PageWrapper from '@/components/PageWrapper';
+import PageWrapper from '@/layout/PageWrapper';
 import HeroSection from '@/section/HeroSection';
 
 export default function Home() {

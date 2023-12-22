@@ -1,5 +1,5 @@
 import React from 'react';
-import { BLOG } from '@/constants';
+import { BLOG } from '@/mock/mock';
 import PostCardSkeleton from '../Skeleton/PostCardSkeleton';
 import PostCard from './PostCard';
 

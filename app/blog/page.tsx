@@ -1,6 +1,6 @@
 import Posts from '@/components/Blog/Posts';
-import Container from '@/components/Container';
-import PageWrapper from '@/components/PageWrapper';
+import Container from '@/layout/Container';
+import PageWrapper from '@/layout/PageWrapper';
 
 const Blog = () => {
   return (

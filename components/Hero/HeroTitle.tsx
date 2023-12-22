@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import MainTitle from '../Title/MainTitle';
+import MainTitle from '../../ui/Title/MainTitle';
 
 const HeroTitle = () => {
   return (

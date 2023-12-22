@@ -1,5 +1,5 @@
 import About from '@/components/Camp/About';
-import Section from '@/components/Section';
+import Section from '@/layout/Section';
 
 const AboutSection = () => {
   return (

@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants';
+import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/data/data';
 import FooterColumn from './FooterColumn';
 import Logo from '../Header/Logo';
-import Socials from '../Socials';
-import Contacts from '../Contacts';
-import Container from '../Container';
+import Socials from '../Socials/Socials';
+import Contacts from '../Contacts/Contacts';
+import Container from '../../layout/Container';
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { MenuItem } from './MenuItem';
-import { NAV_LINKS } from '@/constants';
+import { NAV_LINKS } from '@/data/data';
 
 const variants = {
   open: {

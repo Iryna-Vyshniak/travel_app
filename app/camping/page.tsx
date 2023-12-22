@@ -1,8 +1,8 @@
 import CampCard from '@/components/Camp/CampCard';
-import Container from '@/components/Container';
-import PageWrapper from '@/components/PageWrapper';
-import Title from '@/components/Title/Title';
-import { BOOKING } from '@/constants';
+import Container from '@/layout/Container';
+import PageWrapper from '@/layout/PageWrapper';
+import Title from '@/ui/Title/Title';
+import { BOOKING } from '@/mock/mock';
 
 const Camping = () => {
   return (

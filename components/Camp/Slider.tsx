@@ -5,8 +5,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 
-import { CAMPSITES_DATA } from '@/constants';
 import CampSite from './CampSite';
+import { CAMPSITES_DATA } from '@/data/data';
 
 const Slider = () => {
   return (

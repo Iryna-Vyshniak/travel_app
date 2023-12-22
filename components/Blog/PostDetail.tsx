@@ -1,12 +1,10 @@
 'use client';
-import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import { BLOG } from '@/constants';
+import { useRouter } from 'next/navigation';
+import { BLOG } from '@/mock/mock';
 import Post from '@/shared/types';
 import Tag from './Tags/Tag';
-import Button from '../Button';
-import navigateBackWhiteIcon from '@/public/navigate-back-white.svg';
-import BackLink from '../BackLink/BackLink';
+import BackLink from '../../ui/BackLink/BackLink';
 
 interface IProps {
   params: {

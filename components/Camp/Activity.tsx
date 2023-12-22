@@ -1,8 +1,8 @@
-import { ACTIVITY } from '@/constants';
-import Container from '../Container';
-import Title from '../Title/Title';
+import { ACTIVITY } from '@/mock/mock';
+import Container from '../../layout/Container';
+import Title from '../../ui/Title/Title';
 import Image from 'next/image';
-import Content from '../Content';
+import Content from '../../ui/Content/Content';
 
 const Activity = () => {
   return (

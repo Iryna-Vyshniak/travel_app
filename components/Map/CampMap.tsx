@@ -6,7 +6,7 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import 'leaflet-defaulticon-compatibility';
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import { attribution, url } from '@/constants';
+import { attribution, url } from '@/constants/map';
 
 type MapProps = {
   position: [number, number];

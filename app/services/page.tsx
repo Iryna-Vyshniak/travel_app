@@ -1,6 +1,5 @@
-import Container from '@/components/Container';
-import PageWrapper from '@/components/PageWrapper';
-import Section from '@/components/Section';
+import Container from '@/layout/Container';
+import PageWrapper from '@/layout/PageWrapper';
 
 const Services = () => {
   return (

@@ -1,9 +1,9 @@
 'use client';
-import Post from '@/shared/types';
-import Link from 'next/link';
 import React, { useRef } from 'react';
+import Link from 'next/link';
 import { useInView } from 'framer-motion';
 import Image from 'next/image';
+import Post from '@/shared/types';
 import TagsList from './Tags/TagsList';
 
 const PostCard = ({

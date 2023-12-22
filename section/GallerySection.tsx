@@ -1,5 +1,5 @@
 import Gallery from '@/components/Camp/Gallery';
-import Section from '@/components/Section';
+import Section from '@/layout/Section';
 
 const GallerySection = () => {
   return (

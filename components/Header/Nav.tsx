@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { NAV_LINKS } from '@/constants';
+import { NAV_LINKS } from '@/data/data';
 
 const Nav = () => {
   const path = usePathname();

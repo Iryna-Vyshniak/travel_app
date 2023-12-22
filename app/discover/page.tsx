@@ -1,8 +1,8 @@
 'use client';
 import { motion } from 'framer-motion';
 import Footer from '@/components/Footer/Footer';
-import Modal from '@/components/Modal';
-import PageWrapper from '@/components/PageWrapper';
+import Modal from '@/components/Modal/Modal';
+import PageWrapper from '@/layout/PageWrapper';
 import AboutSection from '@/section/AboutSection';
 import ActivitySection from '@/section/ActivitySection';
 import BookingSection from '@/section/BookingSection';

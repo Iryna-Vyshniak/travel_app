@@ -1,12 +1,11 @@
 'use client';
 
-import Button from '@/components/Button';
-import Container from '@/components/Container';
-import Content from '@/components/Content';
-import Title from '@/components/Title/Title';
 import Image from 'next/image';
-
-import Section from '@/components/Section';
+import Container from '@/layout/Container';
+import Button from '@/ui/Button/Button';
+import Content from '@/ui/Content/Content';
+import Title from '@/ui/Title/Title';
+import Section from '@/layout/Section';
 
 interface IProps {
   modal: boolean;

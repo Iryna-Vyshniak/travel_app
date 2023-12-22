@@ -1,4 +1,4 @@
-import { SOCIALS } from '@/constants';
+import { SOCIALS } from '@/data/data';
 import Image from 'next/image';
 import Link from 'next/link';
 

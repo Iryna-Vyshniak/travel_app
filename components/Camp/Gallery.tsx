@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Slider from './Slider';
-import Title from '../Title/Title';
-import Container from '../Container';
-import Content from '../Content';
+import Title from '../../ui/Title/Title';
+import Container from '../../layout/Container';
+import Content from '../../ui/Content/Content';
 
 const Gallery = () => {
   return (

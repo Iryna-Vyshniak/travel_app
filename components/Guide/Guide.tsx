@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Container from '../Container';
-import Title from '../Title/Title';
-import Content from '../Content';
+import Container from '../../layout/Container';
+import Title from '../../ui/Title/Title';
+import Content from '../../ui/Content/Content';
 
 const Guide = () => {
   return (

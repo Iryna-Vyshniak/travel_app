@@ -1,6 +1,6 @@
-import { BOOKING } from '@/constants';
-import Container from '../Container';
-import Title from '../Title/Title';
+import { BOOKING } from '@/mock/mock';
+import Container from '../../layout/Container';
+import Title from '../../ui/Title/Title';
 import CampCard from './CampCard';
 
 const Booking = () => {

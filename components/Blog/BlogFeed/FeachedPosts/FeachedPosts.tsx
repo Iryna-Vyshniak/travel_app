@@ -1,7 +1,7 @@
 import React from 'react';
+import { useMotionValue, motion, useTransform } from 'framer-motion';
 import FeaturedPost from './FeaturedPost';
 import { IPost } from '@/shared/types';
-import { useMotionValue, motion, useTransform } from 'framer-motion';
 import { getHeight, height, size } from '@/shared/utils.ts/getHeight';
 import { generateStyles } from '@/shared/utils.ts/generateStyles';
 
