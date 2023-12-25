@@ -6,6 +6,8 @@ import Button from '@/ui/Button/Button';
 import Content from '@/ui/Content/Content';
 import Title from '@/ui/Title/Title';
 import Section from '@/layout/Section';
+import Counter from '@/components/Counter/Counter';
+import { useEffect, useState } from 'react';
 
 interface IProps {
   modal: boolean;
@@ -15,6 +17,12 @@ interface IProps {
 }
 
 const CampingSection = ({ modal, openModal, closeModal, toggleModal }: IProps) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    setCount((prevCount) => prevCount + 1);
+  }, []);
+
   return (
     <>
       <Section id='#camping' variant='mt-24 mb-20'>
@@ -47,11 +55,7 @@ const CampingSection = ({ modal, openModal, closeModal, toggleModal }: IProps) =
                       />
                     ))}
                 </div>
-
-                <p className='text-base lg:text-xl font-bold text-blue-70'>
-                  198k
-                  <span className='text-base lg:text-xl ml-1'>Excellent Reviews</span>
-                </p>
+                <Counter key={count}>Excellent Reviews</Counter>
               </div>
 
               <div className='flex w-full gap-3 sm:flex-row'>
