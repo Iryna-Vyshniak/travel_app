@@ -10,6 +10,7 @@ import CampingSection from '@/section/CampingSection';
 import GallerySection from '@/section/GallerySection';
 import GuideSection from '@/section/GuideSection';
 import useModal from '@/shared/hooks/useModal';
+import Video from '@/components/Video/Video';
 
 const Discover = () => {
   const [modal, openModal, closeModal, toggleModal] = useModal(false);
@@ -31,7 +32,11 @@ const Discover = () => {
         <GuideSection />
         <Footer />
       </motion.div>
-      {modal && <Modal {...{ modal, closeModal }}>VIDEO WILL BE HERE</Modal>}
+      {modal && (
+        <Modal {...{ modal, closeModal }}>
+          <Video src='/video/camp-site.mp4' width='600' height='600' />
+        </Modal>
+      )}
     </PageWrapper>
   );
 };
