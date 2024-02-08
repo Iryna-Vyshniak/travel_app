@@ -16,10 +16,10 @@ const Counter = ({ children }: Props) => {
   }, []);
 
   return (
-    <motion.p>
+    <motion.p className='tabular-nums'>
       <motion.span className='text-base lg:text-xl font-bold'>{rounded}</motion.span>
       <span className='text-base lg:text-xl font-bold'>k</span>
-      <span className='text-base lg:text-xl ml-1'>{children}</span>
+      <span className='text-base lg:text-xl ml-4'>{children}</span>
     </motion.p>
   );
 };
