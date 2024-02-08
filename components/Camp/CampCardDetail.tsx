@@ -66,9 +66,11 @@ const CampCardDetail = ({ params }: IProps) => {
               backgroundSize: 'cover',
             }}
           ></div>
+          <div className='fixed top-0 left-0 w-screen overflow-hidden h-[320px] lg:h-[520px] 2xl:h-[620px] bg-slate-900/60 shadow-inner shadow-slate-800'></div>
+
           <BackLink href='/camping' styles='fixed' />
           <div
-            className='fixed top-[15%] right-[6%] z-20 bg-white cursor-pointer border-2 border-gray-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md shadow-gray-600'
+            className='fixed top-[15%] right-[6%] z-50 bg-white cursor-pointer border-2 border-gray-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md shadow-gray-600'
             onClick={() => {
               navigator.clipboard.writeText(window.location.href);
               setShareLinkCopied(true);

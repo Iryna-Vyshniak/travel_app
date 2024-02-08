@@ -26,15 +26,18 @@ const CampCard = ({
   return (
     <li
       ref={ref}
-      className='card m-4 rounded-2xl lg:rounded-5xl shadow-lg shadow-slate-400'
+      className='card min-h-full m-4 rounded-2xl lg:rounded-5xl shadow-lg shadow-slate-400'
       style={{
         transform: isInView ? 'none' : 'translateY(200px)',
         opacity: isInView ? 1 : 0,
         transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
       }}
     >
-      <Link href={`/camping/${id}`} className='w-full overflow-hidden'>
-        <figure className='relative thumb overflow-hidden mb-4'>
+      <Link
+        href={`/camping/${id}`}
+        className='grid grid-rows-[60%,40%] md:grid-rows-[70%,30%] gap-3 w-full h-full min-h-full'
+      >
+        <figure className='relative thumb mb-4 h-full'>
           <Image
             src={primaryImages}
             loading='lazy'
@@ -44,8 +47,8 @@ const CampCard = ({
             className='absolute inset-0 h-full w-full object-cover rounded-tr-2xl lg:rounded-tr-5xl rounded-tl-2xl lg:rounded-tl-5xl'
           />
         </figure>
-        <div className='flex flex-col gap-2 p-4'>
-          <div className='flex flex-col flex-grow gap-2'>
+        <div className='flex flex-col gap-2 p-4 h-full w-full'>
+          <div className='flex flex-col flex-auto gap-2'>
             <span className='inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs text-center max-w-[7.5rem]'>
               Highlight
             </span>
@@ -53,7 +56,7 @@ const CampCard = ({
             <p className='text-base'>{address}</p>
           </div>
 
-          <div className='flex items-center justify-between border-t w-full pt-2'>
+          <div className='flex items-center justify-between pt-2 border-t w-full mt-auto'>
             <p className='text-base'>${price}/per day</p>
             <div className='flex items-center gap-1'>
               <p className='text-base text-green-800 font-bold'>{numberOfPersons}</p>
