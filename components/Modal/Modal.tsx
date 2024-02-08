@@ -26,7 +26,7 @@ const Modal = ({ modal, closeModal, children }: ModalProps) => {
               initial='hidden'
               animate='visible'
               exit='exit'
-              className='absolute z-50 h-[50vh] max-w-md w-full flex items-center justify-center p-5 bg-green-80 rounded-xl text-white'
+              className='absolute z-50 h-[50vh] max-w-md w-full flex items-center justify-center p-5 bg-green-100/50 rounded-xl text-white'
             >
               <button
                 onClick={closeModal}

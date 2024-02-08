@@ -228,12 +228,13 @@ img {
   .cards-list {
     @apply mob:grid md:grid-cols-2  xl:grid-cols-3 place-content-center gap-y-[16px] gap-x-[29px] mob:gap-y-[16px] 2xl:gap-y-[50px];
   }
+
   .card {
-    @apply flex flex-col items-start shrink-0 w-[316px] h-[420px] md:w-[354px] md:h-[506px] 2xl:w-[374px] 2xl:h-[526px];
+    @apply w-full h-[560px]  2xl:h-[566px] overflow-hidden;
   }
 
   .thumb {
-    @apply w-[316px] h-[204px]  md:w-[354px] md:h-[320px]  2xl:w-[374px] 2xl:h-[326px];
+    @apply w-full;
   }
 }
 
