@@ -2,8 +2,7 @@
 export const NAV_LINKS = [
   { href: '/', key: '0home', label: 'Home', icon: '/cabin.svg' },
   { href: '/camping', key: '1camping', label: 'Camping', icon: '/tent.svg' },
-  { href: '/services', key: '2services', label: 'Services', icon: '/services.svg' },
-  { href: '/blog', key: '3blog', label: 'Blog', icon: '/contacts.svg' },
+  { href: '/blog', key: '2blog', label: 'Blog', icon: '/contacts.svg' },
 ];
 
 // CAMP SECTION
